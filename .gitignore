@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Hackney.Shared.Finance/bin
+/Hackney.Shared.Finance/obj
+/Hackney.Shared.Finance.Tests/bin/Debug/net6.0
+/Hackney.Shared.Finance.Tests/obj
+/.vs/Hackney.Shared.Finance/v17/TestStore/0

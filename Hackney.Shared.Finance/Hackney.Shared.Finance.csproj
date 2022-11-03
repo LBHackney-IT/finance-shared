@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	<RepositoryUrl>https://github.com/LBHackney-IT/finance-shared</RepositoryUrl>
+	<Description>Shared package library for the domains in Housing Finance</Description>
+	<Version>1.0.0</Version>
+	<Authors>London Borough of Hackney Council</Authors>
+	<Company>London Borough of Hackney Council</Company>
+	<Copyright>2022</Copyright>
+	<NoWarn>S1066;S4457</NoWarn>
+	<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>
