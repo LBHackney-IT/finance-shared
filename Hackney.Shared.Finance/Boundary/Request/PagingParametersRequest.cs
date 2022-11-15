@@ -2,7 +2,7 @@
 
 namespace Hackney.Shared.Finance.Boundary.Request
 {
-    public abstract class PagingParametersRequest
+    public class PagingParametersRequest
     {
         [FromQuery(Name = "pageSize")]
         public int PageSize { get; set; } = 20;
