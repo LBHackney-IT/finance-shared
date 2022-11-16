@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Hackney.Shared.Finance.Boundary.Request
+namespace Hackney.Shared.Finance.Pagination
 {
     public class PagingParametersRequest
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Hackney.Shared.Finance.Boundary.Response
+namespace Hackney.Shared.Finance.Pagination
 {
     public class Paginated<T> where T : class
     {

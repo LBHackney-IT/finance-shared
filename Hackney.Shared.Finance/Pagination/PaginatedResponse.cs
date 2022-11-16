@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using Hackney.Shared.Finance.Boundary.Response;
+using System.Collections.Generic;
 
-namespace Hackney.Shared.Finance.Boundary.Response
+namespace Hackney.Shared.Finance.Pagination
 {
     public class PaginatedResponse<T>
     {

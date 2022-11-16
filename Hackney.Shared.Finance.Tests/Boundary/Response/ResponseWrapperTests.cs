@@ -50,16 +50,16 @@ namespace Hackney.Shared.Finance.Tests.Boundary.Response
         }
 
         /// <summary>
-        /// Given a Response When Empty Collection Then ResposeWrapper Should Be Empty
+        /// Given a Response When Empty Collection Then ResposeWrapper Should Be NOt Empty
         /// </summary>
         [Fact]
         public void GivenResponseWhenEmptyCollectionThenResposeWrapperShouldBeEmpty()
         {
-            var testList = new List<DummyResponse>();
+            var testList = Enumerable.Empty<DummyResponse>();
 
             var wrapperResponse = new ResponseWrapper<IEnumerable<DummyResponse>>(testList);
 
-            wrapperResponse.IsEmpty.Should().BeTrue();
+            wrapperResponse.IsEmpty.Should().BeFalse();
         }
     }
 }

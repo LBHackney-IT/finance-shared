@@ -13,6 +13,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Boundary\Request\" />
     <Folder Include="Domain\" />
     <Folder Include="Factory\" />
   </ItemGroup>

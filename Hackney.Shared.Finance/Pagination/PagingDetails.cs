@@ -1,7 +1,6 @@
-﻿
-namespace Hackney.Shared.Finance.Boundary.Response
+﻿namespace Hackney.Shared.Finance.Pagination
 {
-    public class Pagination
+    public class PagingDetails
     {
         public int ResultCount { get; set; }
         public int CurrentPage { get; set; }
