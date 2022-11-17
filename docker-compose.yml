@@ -1,10 +1,10 @@
 version: "3.2"
 
 services:
-  hackney-shared-asset-test:
-    image: hackney-shared-asset-test
+  hackney-shared-finance-test:
+    image: hackney-shared-finance-test
     build:
       context: .
-      dockerfile: Hackney.Shared.Asset.Tests/Dockerfile
+      dockerfile: Hackney.Shared.Finance.Tests/Dockerfile
       args:
         - LBHPACKAGESTOKEN=${LBHPACKAGESTOKEN}
